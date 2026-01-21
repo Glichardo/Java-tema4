@@ -4,13 +4,13 @@ public class Vehicle {
     private VehicleType type;
     private int maxSpeed;
     private String color;
-    private String licensePlate;
+    private String license;
 
-    public Vehicle(VehicleType type, int maxSpeed, String color, String licensePlate) {
+    public Vehicle(VehicleType type, int maxSpeed, String color, String license) {
         this.type = type;
         this.maxSpeed = maxSpeed;
         this.color = color;
-        this.licensePlate = licensePlate;
+        this.license = license;
     }
 
     public VehicleType getType() {
@@ -37,12 +37,12 @@ public class Vehicle {
         this.color = color;
     }
 
-    public String getLicensePlate() {
-        return licensePlate;
+    public String getLicense() {
+        return license;
     }
 
-    public void setLicensePlate(String licensePlate) {
-        this.licensePlate = licensePlate;
+    public void setLicense(String license) {
+        this.license = license;
     }
 
 
